@@ -25,8 +25,8 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('✪ Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url="https://t.me/ModringMovies"),
-                    InlineKeyboardButton('⌬ Mᴏᴠɪᴇ Gʀᴏᴜᴘ', url="https://t.me/ModringMovies")
+                    InlineKeyboardButton('✪ ♻️ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ♻️', url="https://t.me/ModringMovies"),
+                    InlineKeyboardButton('⌬ 🤍ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ🤍', url="https://t.me/ModringMovies")
                 ],[
                     InlineKeyboardButton('✇ Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ✇', url="https://t.me/ModRingr")
                   ]]
@@ -153,8 +153,8 @@ async def start(client, message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
-                                InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url="https://t.me/Modringmovies_x")
+                                InlineKeyboardButton('♻️ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ♻️', url=f'https://t.me/{SUPPORT_CHAT}'),
+                                InlineKeyboardButton('🤍ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ🤍', url="https://t.me/Modringmovies_x")
                             ],[
                                 InlineKeyboardButton('𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥', url="https://t.me/Modder_01")
                             ],
@@ -175,8 +175,8 @@ async def start(client, message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                          [
-                          InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
-                          InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url="https://t.me/Modringmovies_x")
+                          InlineKeyboardButton('♻️ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ♻️', url=f'https://t.me/{SUPPORT_CHAT}'),
+                          InlineKeyboardButton('🤍ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ🤍', url="https://t.me/Modringmovies_x")
                        ],[
                           InlineKeyboardButton("𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥", url="t.me/Modder_01")
                          ],[ 
@@ -334,8 +334,8 @@ async def start(client, message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                      [
-                      InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
-                      InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url="https://t.me/Modringmovies_x")
+                      InlineKeyboardButton('♻️ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ♻️', url=f'https://t.me/{SUPPORT_CHAT}'),
+                      InlineKeyboardButton('🤍ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ🤍', url="https://t.me/Modringmovies_x")
                    ],[
                       InlineKeyboardButton("𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥", url="t.me/Modder_01")
                      ],
@@ -400,8 +400,8 @@ async def start(client, message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                      [
-                      InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
-                      InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url="https://t.me/Modringmovies_x")
+                      InlineKeyboardButton('♻️ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ♻️', url=f'https://t.me/{SUPPORT_CHAT}'),
+                      InlineKeyboardButton('🤍ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ🤍', url="https://t.me/Modringmovies_x")
                    ],[
                       InlineKeyboardButton("𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥", url="t.me/Modder_01")
                      ],
@@ -463,8 +463,8 @@ async def start(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
              [
-              InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
-              InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url="https://t.me/Modringmovies_x")
+              InlineKeyboardButton('♻️ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ♻️', url=f'https://t.me/{SUPPORT_CHAT}'),
+              InlineKeyboardButton('🤍ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ🤍', url="https://t.me/Modringmovies_x")
            ],[
               InlineKeyboardButton("𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥", url="t.me/Modder_01")
              ],
