@@ -222,7 +222,7 @@ Tɪᴘ: Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs" ᴏʀ "Sᴇᴀsᴏɴs" Bᴜᴛᴛ
 <b>══════════════════
 🗂 {file_name}
 ═════════════════════ 
-𝐉𝐎𝐈𝐍 𝐇𝐄𝐑𝐄 :- @Modringr</b>"""
+𝐉𝐎𝐈𝐍 𝐇𝐄𝐑𝐄 :- @Modringmovies_x</b>"""
     
     IMDB_TEMPLATE_TXT = """
 <b>Query: {qurey}
