@@ -1778,7 +1778,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             )
             reply_markup = InlineKeyboardMarkup(btn)
             await query.message.edit_text(
-                text=(script.STICKER_TXT),
+                text=(script.STICKER("CAACAgQAAxkBAAL5ZGXIVc9CCapqx6inATH82IQppZ5VAAJuDwAC4eqxUNoxB5joJxGiHgQ"),
                 reply_markup=reply_markup,
                 parse_mode=enums.ParseMode.HTML
             )
