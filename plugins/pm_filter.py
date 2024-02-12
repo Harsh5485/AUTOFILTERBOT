@@ -1907,9 +1907,9 @@ async def auto_filter(client, msg, spoll=False):
         message = msg.message.reply_to_message  # msg will be callback query
         search, files, offset, total_results = spoll
         btn = [[
-             InlineKeyboardButton(f"searching 🔍 for {search}", url=CHNL_LNK)
+             InlineKeyboardButton(f"searching  🔍  for {search}", url=CHNL_LNK)
                 ]]
-       dlt = await message.reply_sticker('CAACAgQAAxkBAAL5ZGXIVc9CCapqx6inATH82IQppZ5VAAJuDwAC4eqxUNoxB5joJxGiHgQ', reply_markup=InlineKeyboardMarkup(btn))
+        dlt = await message.reply_sticker('CAACAgQAAxkBAAID32XJlB_NiIOw5kqQ7Ezb5XgAARssHgACbg8AAuHqsVDaMQeY6CcRoh4E', reply_markup=InlineKeyboardMarkup(btn))
         settings = await get_settings(message.chat.id)
         await msg.message.delete()
         # if 'is_shortlink' in settings.keys():
