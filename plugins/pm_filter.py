@@ -1877,12 +1877,17 @@ async def auto_filter(client, msg, spoll=False):
             return
         if len(message.text) < 100:
             search = message.text
-            m=await message.reply_text("🔍")
+            btn = [[
+                    InlineKeyboardButton(f"Searching  🔍  for {search}", url=CHNL_LNK)
+                    ]]
+            dlt = await message.reply_sticker('CAACAgQAAxkBAAID32XJlB_NiIOw5kqQ7Ezb5XgAARssHgACbg8AAuHqsVDaMQeY6CcRoh4E', reply_markup=InlineKeyboardMarkup(btn))
             search = search.lower()
             find = search.split(" ")
             search = ""
             removes = ["in","upload", "series", "full", "horror", "thriller", "mystery", "print", "file"]
             for x in find:
+                # if x == "in" or x == "upload" or x == "series" or x == "full" or x == "horror" or x == "thriller" or x == "mystery" or x == "print" or x == "subtitle" or x == "subtitles":
+                #     continue
                 if x in removes:
                     continue
                 else:
