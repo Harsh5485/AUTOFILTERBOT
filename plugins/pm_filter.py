@@ -2039,15 +2039,15 @@ async def auto_filter(client, msg, spoll=False):
     if imdb and imdb.get('poster'):
         try:
             hehe = await message.reply_photo(photo=imdb.get('poster'), caption=cap, reply_markup=InlineKeyboardMarkup(btn))
-            await m.delete()
+            await dlt.delete()
             try:
                 if settings['auto_delete']:
-                    await asyncio.sleep(300)
+                    await asyncio.sleep(120)
                     await hehe.delete()
                     await message.delete()
             except KeyError:
                 await save_group_settings(message.chat.id, 'auto_delete', True)
-                await asyncio.sleep(300)
+                await asyncio.sleep(120)
                 await hehe.delete()
                 await message.delete()
         except (MediaEmpty, PhotoInvalidDimensions, WebpageMediaEmpty):
@@ -2057,13 +2057,13 @@ async def auto_filter(client, msg, spoll=False):
             await m.delete()
             try:
                if settings['auto_delete']:
-                    await asyncio.sleep(300)
+                    await asyncio.sleep(120)
                     m=await message.reply_sticker("🔎")
                     await hmm.delete()
                     await message.delete()
             except KeyError:
                 await save_group_settings(message.chat.id, 'auto_delete', True)
-                await asyncio.sleep(300)
+                await asyncio.sleep(120)
                 await hmm.delete()
                 await message.delete()
         except Exception as e:
@@ -2073,7 +2073,7 @@ async def auto_filter(client, msg, spoll=False):
             await m.delete()
             try:
                 if settings['auto_delete']:
-                    await asyncio.sleep(300)
+                    await asyncio.sleep(120)
                     await fek.delete()
                     await message.delete()
             except KeyError:
