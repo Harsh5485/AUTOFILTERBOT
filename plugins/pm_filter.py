@@ -2080,7 +2080,7 @@ async def auto_filter(client, msg, spoll=False):
                 await save_group_settings(message.chat.id, 'auto_delete', True)
                 await asyncio.sleep(120)
                 await fek.delete()
-                await message.delete(10)
+                await message.delete()
     else:
         fuk = await message.reply_text(text=cap, reply_markup=InlineKeyboardMarkup(btn), disable_web_page_preview=True)
         await m.delete()
@@ -2088,12 +2088,12 @@ async def auto_filter(client, msg, spoll=False):
             if settings['auto_delete']:
                 await asyncio.sleep(120)
                 await fuk.delete()
-                await message.delete(10)
+                await message.delete()
         except KeyError:
             await save_group_settings(message.chat.id, 'auto_delete', True)
             await asyncio.sleep(120)
             await fuk.delete()
-            await message.delete(10)
+            await message.delete()
 
 
 async def advantage_spell_chok(client, msg):
