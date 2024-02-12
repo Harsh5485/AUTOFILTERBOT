@@ -1880,7 +1880,7 @@ async def auto_filter(client, msg, spoll=False):
             btn = [[
                     InlineKeyboardButton(f"Searching  🔍  for {search}", url=CHNL_LNK)
                     ]]
-            dlt = await message.reply_sticker('CAACAgQAAxkBAAID32XJlB_NiIOw5kqQ7Ezb5XgAARssHgACbg8AAuHqsVDaMQeY6CcRoh4E', reply_markup=InlineKeyboardMarkup(btn))
+            dlt = await message.reply_sticker('CAACAgIAAxkBAAIEC2XJ7YivPa38cfFAySM8KR4VteegAAKrAQACEBptIni-vpHMVGzHHgQ', reply_markup=InlineKeyboardMarkup(btn))
             search = search.lower()
             find = search.split(" ")
             search = ""
@@ -1914,7 +1914,7 @@ async def auto_filter(client, msg, spoll=False):
         btn = [[
              InlineKeyboardButton(f"searching  🔍  for {search}", url=CHNL_LNK)
                 ]]
-        dlt = await message.reply_sticker('CAACAgQAAxkBAAID32XJlB_NiIOw5kqQ7Ezb5XgAARssHgACbg8AAuHqsVDaMQeY6CcRoh4E', reply_markup=InlineKeyboardMarkup(btn))
+        dlt = await message.reply_sticker('CAACAgIAAxkBAAIEC2XJ7YivPa38cfFAySM8KR4VteegAAKrAQACEBptIni-vpHMVGzHHgQ', reply_markup=InlineKeyboardMarkup(btn))
         settings = await get_settings(message.chat.id)
         await msg.message.delete()
         # if 'is_shortlink' in settings.keys():
