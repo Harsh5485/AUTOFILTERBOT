@@ -1912,6 +1912,16 @@ async def auto_filter(client, msg, spoll=False):
         dlt = await message.reply_sticker('CAACAgQAAxkBAAL5ZGXIVc9CCapqx6inATH82IQppZ5VAAJuDwAC4eqxUNoxB5joJxGiHgQ', reply_markup=InlineKeyboardMarkup(btn))
         settings = await get_settings(message.chat.id)
         await msg.message.delete()
+        # if 'is_shortlink' in settings.keys():
+    #     ENABLE_SHORTLINK = settings['is_shortlink']
+    # else:
+    #     await save_group_settings(message.chat.id, 'is_shortlink', False)
+    #     ENABLE_SHORTLINK = False
+    # if 'is_tutorial' in settings.keys():
+    #     ENABLE_TUTORIAL = settings['is_tutorial']
+    # else:
+    #     await save_group_settings(message.chat.id, 'is_tutorial', False)
+    #     ENABLE_TUTORIAL = False
     pre = 'filep' if settings['file_secure'] else 'file'
     key = f"{message.chat.id}-{message.id}"
     FRESH[key] = search
