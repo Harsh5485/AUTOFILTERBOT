@@ -1906,7 +1906,9 @@ async def auto_filter(client, msg, spoll=False):
     else:
         message = msg.message.reply_to_message  # msg will be callback query
         search, files, offset, total_results = spoll
-        m=await message.reply_text("🔎")
+        btn= [[
+             InlineKeyboardButton(f"searching 🔍 for {search}" 
+        dlt = await message.reply_sticker('CAACAgQAAxkBAAL5ZGXIVc9CCapqx6inATH82IQppZ5VAAJuDwAC4eqxUNoxB5joJxGiHgQ')
         settings = await get_settings(message.chat.id)
         await msg.message.delete()
     pre = 'filep' if settings['file_secure'] else 'file'
