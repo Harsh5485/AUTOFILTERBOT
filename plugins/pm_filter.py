@@ -1916,7 +1916,7 @@ async def auto_filter(client, msg, spoll=False):
                 ]]
         dlt = await message.reply_sticker('CAACAgIAAxkBAAIEC2XJ7YivPa38cfFAySM8KR4VteegAAKrAQACEBptIni-vpHMVGzHHgQ', reply_markup=InlineKeyboardMarkup(btn))
         settings = await get_settings(message.chat.id)
-        await msg.message.delete(20)
+        await msg.message.delete()
         # if 'is_shortlink' in settings.keys():
     #     ENABLE_SHORTLINK = settings['is_shortlink']
     # else:
@@ -2044,12 +2044,12 @@ async def auto_filter(client, msg, spoll=False):
                 if settings['auto_delete']:
                     await asyncio.sleep(120)
                     await hehe.delete()
-                    await message.delete(10)
+                    await message.delete()
             except KeyError:
                 await save_group_settings(message.chat.id, 'auto_delete', True)
                 await asyncio.sleep(120)
                 await hehe.delete()
-                await message.delete(10)
+                await message.delete()
         except (MediaEmpty, PhotoInvalidDimensions, WebpageMediaEmpty):
             pic = imdb.get('poster')
             poster = pic.replace('.jpg', "._V1_UX360.jpg") 
@@ -2060,12 +2060,12 @@ async def auto_filter(client, msg, spoll=False):
                     await asyncio.sleep(120)
                     m=await message.reply_sticker("🔎")
                     await hmm.delete()
-                    await message.delete(10)
+                    await message.delete()
             except KeyError:
                 await save_group_settings(message.chat.id, 'auto_delete', True)
                 await asyncio.sleep(120)
                 await hmm.delete()
-                await message.delete(10)
+                await message.delete()
         except Exception as e:
             logger.exception(e)
             m=await message.reply_sticker("🔎") 
@@ -2075,7 +2075,7 @@ async def auto_filter(client, msg, spoll=False):
                 if settings['auto_delete']:
                     await asyncio.sleep(120)
                     await fek.delete()
-                    await message.delete(10)
+                    await message.delete()
             except KeyError:
                 await save_group_settings(message.chat.id, 'auto_delete', True)
                 await asyncio.sleep(120)
