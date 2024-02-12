@@ -1916,7 +1916,7 @@ async def auto_filter(client, msg, spoll=False):
                 ]]
         dlt = await message.reply_sticker('CAACAgIAAxkBAAIEC2XJ7YivPa38cfFAySM8KR4VteegAAKrAQACEBptIni-vpHMVGzHHgQ', reply_markup=InlineKeyboardMarkup(btn))
         settings = await get_settings(message.chat.id)
-        await msg.message.delete()
+        await msg.message.delete(20)
         # if 'is_shortlink' in settings.keys():
     #     ENABLE_SHORTLINK = settings['is_shortlink']
     # else:
@@ -2044,12 +2044,12 @@ async def auto_filter(client, msg, spoll=False):
                 if settings['auto_delete']:
                     await asyncio.sleep(120)
                     await hehe.delete()
-                    await message.delete()
+                    await message.delete(10)
             except KeyError:
                 await save_group_settings(message.chat.id, 'auto_delete', True)
                 await asyncio.sleep(120)
                 await hehe.delete()
-                await message.delete()
+                await message.delete(10)
         except (MediaEmpty, PhotoInvalidDimensions, WebpageMediaEmpty):
             pic = imdb.get('poster')
             poster = pic.replace('.jpg', "._V1_UX360.jpg") 
@@ -2058,29 +2058,29 @@ async def auto_filter(client, msg, spoll=False):
             try:
                if settings['auto_delete']:
                     await asyncio.sleep(120)
-                    m=await message.reply_sticker("CAACAgQAAxkBAAID32XJlB_NiIOw5kqQ7Ezb5XgAARssHgACbg8AAuHqsVDaMQeY6CcRoh4E")
+                    m=await message.reply_sticker("🔎")
                     await hmm.delete()
-                    await message.delete()
+                    await message.delete(10)
             except KeyError:
                 await save_group_settings(message.chat.id, 'auto_delete', True)
                 await asyncio.sleep(120)
                 await hmm.delete()
-                await message.delete()
+                await message.delete(10)
         except Exception as e:
             logger.exception(e)
-            m=await message.reply_sticker("CAACAgQAAxkBAAID32XJlB_NiIOw5kqQ7Ezb5XgAARssHgACbg8AAuHqsVDaMQeY6CcRoh4E") 
+            m=await message.reply_sticker("🔎") 
             fek = await message.reply_text(text=cap, reply_markup=InlineKeyboardMarkup(btn))
             await m.delete()
             try:
                 if settings['auto_delete']:
                     await asyncio.sleep(120)
                     await fek.delete()
-                    await message.delete()
+                    await message.delete(10)
             except KeyError:
                 await save_group_settings(message.chat.id, 'auto_delete', True)
                 await asyncio.sleep(120)
                 await fek.delete()
-                await message.delete()
+                await message.delete(10)
     else:
         fuk = await message.reply_text(text=cap, reply_markup=InlineKeyboardMarkup(btn), disable_web_page_preview=True)
         await m.delete()
@@ -2088,12 +2088,12 @@ async def auto_filter(client, msg, spoll=False):
             if settings['auto_delete']:
                 await asyncio.sleep(120)
                 await fuk.delete()
-                await message.delete()
+                await message.delete(10)
         except KeyError:
             await save_group_settings(message.chat.id, 'auto_delete', True)
             await asyncio.sleep(120)
             await fuk.delete()
-            await message.delete()
+            await message.delete(10)
 
 
 async def advantage_spell_chok(client, msg):
