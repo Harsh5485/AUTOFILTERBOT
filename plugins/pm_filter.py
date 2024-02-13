@@ -2073,13 +2073,13 @@ async def auto_filter(client, msg, spoll=False):
             await dlt.delete()
             try:
                 if settings['auto_delete']:
-              dlt = await asyncio.sleep(150)
-                    await fek.delete()
+                    await asyncio.sleep(150)
+                    await dlt.delete()
                     await message.delete()
             except KeyError:
-          dlt = await save_group_settings(message.chat.id, 'auto_delete', True)
+                await save_group_settings(message.chat.id, 'auto_delete', True)
                 await asyncio.sleep(150)
-                await fek.delete()
+                await dlt.delete()
                 await message.delete()
     else:
         fuk = await message.reply_text(text=cap, reply_markup=InlineKeyboardMarkup(btn), disable_web_page_preview=True)
@@ -2087,12 +2087,12 @@ async def auto_filter(client, msg, spoll=False):
         try:
             if settings['auto_delete']:
                 await asyncio.sleep(150)
-                await fuk.delete()
+                await dlt.delete()
                 await message.delete()
         except KeyError:
-      dlt = await save_group_settings(message.chat.id, 'auto_delete', True)
+            await save_group_settings(message.chat.id, 'auto_delete', True)
             await asyncio.sleep(150)
-            await fuk.delete()
+            await dlt.delete()
             await message.delete()
     # if spoll: 
     #      await msg.message.delete()
