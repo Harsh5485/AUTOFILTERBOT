@@ -2073,11 +2073,11 @@ async def auto_filter(client, msg, spoll=False):
             await dlt.delete()
             try:
                 if settings['auto_delete']:
-                    await asyncio.sleep(150)
+              dlt = await asyncio.sleep(150)
                     await fek.delete()
                     await message.delete()
             except KeyError:
-                await save_group_settings(message.chat.id, 'auto_delete', True)
+          dlt = await save_group_settings(message.chat.id, 'auto_delete', True)
                 await asyncio.sleep(150)
                 await fek.delete()
                 await message.delete()
@@ -2090,7 +2090,7 @@ async def auto_filter(client, msg, spoll=False):
                 await fuk.delete()
                 await message.delete()
         except KeyError:
-            await save_group_settings(message.chat.id, 'auto_delete', True)
+      dlt = await save_group_settings(message.chat.id, 'auto_delete', True)
             await asyncio.sleep(150)
             await fuk.delete()
             await message.delete()
@@ -2121,7 +2121,7 @@ async def advantage_spell_chok(client, msg):
             caption=script.I_CUDNT.format(mv_rqst),
             reply_markup=InlineKeyboardMarkup(button)
         )
-        await asyncio.sleep(300)
+        await asyncio.sleep(150)
         await k.delete()
         return
     movielist = []
