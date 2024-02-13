@@ -2087,12 +2087,12 @@ async def auto_filter(client, msg, spoll=False):
         try:
             if settings['auto_delete']:
                 await asyncio.sleep(150)
-                await dlt.delete()
+                await fek.delete()
                 await message.delete()
         except KeyError:
             await save_group_settings(message.chat.id, 'auto_delete', True)
             await asyncio.sleep(150)
-            await dlt.delete()
+            await fek.delete()
             await message.delete()
     # if spoll: 
     #      await msg.message.delete()
