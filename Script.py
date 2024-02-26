@@ -220,8 +220,8 @@ Tɪᴘ: Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs" ᴏʀ "Sᴇᴀsᴏɴs" Bᴜᴛᴛ
 
     CAPTION = """ 
 <b>══════════════════
-📂'Fɪʟᴇɴᴀᴍᴇ' : {file_name}
-'Size' ⚙️: {Size}
+📂Fɪʟᴇɴᴀᴍᴇ {file_name}
+Size⚙️ {Size}
 ═════════════════════ 
 𝐉𝐎𝐈𝐍 𝐇𝐄𝐑𝐄 :- @Modringmovies_x
 𝙼𝚘𝚟𝚒𝚎 𝚁𝚎𝚚𝚞𝚎𝚜𝚝 :- @ModringMovies</b>"""
