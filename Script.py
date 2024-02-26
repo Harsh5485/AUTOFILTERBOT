@@ -20,7 +20,7 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.
 
     SOURCE_TXT = """
     <b>Nᴏᴛᴇ:
-    ✭ Bᴏᴛ Is Rᴇᴅᴇsɪɢɴ Bʏ <a href='https://t.me/Modringr'> Modring® <
+    ✭ Bᴏᴛ Is Rᴇᴅᴇsɪɢɴ Bʏ <a href='https://t.me/Modringr'Modring® 
     ✭ Sᴏᴜʀᴄᴇ - Iᴛ's A Pʀɪᴠᴀᴛᴇ Rᴇᴘᴏ
     ✭ Fᴏʀ Aɴʏ Qᴜᴇʀʏ Cᴏɴᴛᴀᴄᴛ Tᴏ Tʜᴇ Dᴇᴠᴇʟᴏᴘᴇʀ</a></b>
 """
