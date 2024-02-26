@@ -223,14 +223,13 @@ Tɪᴘ: Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs" ᴏʀ "Sᴇᴀsᴏɴs" Bᴜᴛᴛ
 🗂 {file_name}
 ═════════════════════ 
 𝐉𝐎𝐈𝐍 𝐇𝐄𝐑𝐄 :- @Modringmovies_x</b>"""
-'𝙼𝚘𝚟𝚒𝚎 𝚁𝚎𝚚𝚞𝚎𝚜𝚝' :- '@ModringMovies</b>"""
     
     IMDB_TEMPLATE_TXT = """
 <b>Query: {qurey}
 
 IMDb Data:
 
-<b>'🏷' Title</b>: <a href={url}>{title}</a>
+<b> 🏷 Title</b>: <a href={url}>{title}</a>
 🎭 Genres: {genres}
 📆 Year: <a href={url}/releaseinfo>{year}</a>
 🌟 Rating: <a href={url}/ratings>{rating}</a> / 10 (based on {votes} user ratings.)
