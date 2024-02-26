@@ -221,10 +221,10 @@ Tɪᴘ: Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs" ᴏʀ "Sᴇᴀsᴏɴs" Bᴜᴛᴛ
     CAPTION = """ 
 <b>══════════════════
 📂 Fɪʟᴇɴᴀᴍᴇ : {file_name}
-Size ⚙️ : {size}
+Size ⚙️ : {file_size}
 ═════════════════════ 
-𝐉𝐎𝐈𝐍 𝐇𝐄𝐑𝐄 :- @Modringmovies_x
-𝙼𝚘𝚟𝚒𝚎 𝚁𝚎𝚚𝚞𝚎𝚜𝚝 :- @ModringMovies</b>"""
+𝙹𝙾𝙸𝙽 𝙷𝙴𝚁𝙴 :- @Modringmovies_x
+𝙼𝙾𝚅𝙸𝙴 𝚁𝙴𝚀𝚄𝙴𝚂𝚃 :- @ModringMovies</b>"""
     
     IMDB_TEMPLATE_TXT = """
 <b>Query: {qurey}
