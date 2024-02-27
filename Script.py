@@ -221,7 +221,7 @@ Tɪᴘ: Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs" ᴏʀ "Sᴇᴀsᴏɴs" Bᴜᴛᴛ
     CAPTION = """ 
 <b>
 📂 Fɪʟᴇɴᴀᴍᴇ : {file_name}
-📀 ꜱɪᴢᴇ : {file_size}
+📀 ꜱɪᴢᴇ :- {file_size}
 ═════════════════════ 
 🔰 ᴊᴏɪɴ ʜᴇʀᴇ :- @Modringmovies_x
 🔰 ᴍᴏᴠɪᴇ ʀᴇQᴜᴇꜱᴛ :- @ModringMovies</b>"""
