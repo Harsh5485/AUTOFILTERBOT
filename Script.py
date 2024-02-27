@@ -223,8 +223,8 @@ Tɪᴘ: Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs" ᴏʀ "Sᴇᴀsᴏɴs" Bᴜᴛᴛ
 📂 Fɪʟᴇɴᴀᴍᴇ : {file_name}
 📀 ꜱɪᴢᴇ : {file_size}
 ═════════════════════ 
-🔰ᴊᴏɪɴ ʜᴇʀᴇ:@Modringmovies_x
-🔰ᴍᴏᴠɪᴇ ʀᴇQᴜᴇꜱᴛ:@ModringMovies</b>"""
+🔰ᴊᴏɪɴ ʜᴇʀᴇ : @Modringmovies_x
+🔰ᴍᴏᴠɪᴇ ʀᴇQᴜᴇꜱᴛ : @ModringMovies</b>"""
     
     IMDB_TEMPLATE_TXT = """
 <b>Query: {qurey}
