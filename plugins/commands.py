@@ -159,7 +159,7 @@ async def start(client, message):
                                 InlineKeyboardButton('𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥', url="https://t.me/Modder_01")
                             ],
                             [
-                                InlineKeyboardButton('🚀 𝙵𝚊𝚜𝚝 𝙳𝚘𝚠𝚗𝚕𝚘𝚊𝚍 / 𝚆𝚊𝚝𝚌𝚑 𝙾𝚗𝚕𝚒𝚗𝚎🖥️', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @LazyDeveloperr
+                                InlineKeyboardButton('🚀 ꜰᴀꜱᴛ ᴅᴏᴡɴʟᴏᴀᴅ / ᴡᴀᴛᴄʜ ᴏɴʟɪɴᴇ 🖥️', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @LazyDeveloperr
                             ]
                         ]
                     )
@@ -180,7 +180,7 @@ async def start(client, message):
                        ],[
                           InlineKeyboardButton("𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥", url="t.me/Modder_01")
                          ],[ 
-                            InlineKeyboardButton('🚀 𝙵𝚊𝚜𝚝 𝙳𝚘𝚠𝚗𝚕𝚘𝚊𝚍 / 𝚆𝚊𝚝𝚌𝚑 𝙾𝚗𝚕𝚒𝚗𝚎🖥️', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @LazyDeveloperr
+                            InlineKeyboardButton('🚀 ꜰᴀꜱᴛ ᴅᴏᴡɴʟᴏᴀᴅ / ᴡᴀᴛᴄʜ ᴏɴʟɪɴᴇ 🖥️', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @LazyDeveloperr
                             ]
                         ]
                     )
@@ -340,7 +340,7 @@ async def start(client, message):
                       InlineKeyboardButton("𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥", url="t.me/Modder_01")
                      ],
                      [
-                        InlineKeyboardButton('🚀 𝙵𝚊𝚜𝚝 𝙳𝚘𝚠𝚗𝚕𝚘𝚊𝚍 / 𝚆𝚊𝚝𝚌𝚑 𝙾𝚗𝚕𝚒𝚗𝚎🖥️', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @LazyDeveloperr
+                        InlineKeyboardButton('🚀 ꜰᴀꜱᴛ ᴅᴏᴡɴʟᴏᴀᴅ / ᴡᴀᴛᴄʜ ᴏɴʟɪɴᴇ 🖥️', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @LazyDeveloperr
 
                      ]
                     ]
@@ -406,7 +406,7 @@ async def start(client, message):
                       InlineKeyboardButton("𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥", url="t.me/Modder_01")
                      ],
                      [
-                        InlineKeyboardButton('🚀 𝙵𝚊𝚜𝚝 𝙳𝚘𝚠𝚗𝚕𝚘𝚊𝚍 / 𝚆𝚊𝚝𝚌𝚑 𝙾𝚗𝚕𝚒𝚗𝚎🖥️', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @LazyDeveloperr
+                        InlineKeyboardButton('🚀 ꜰᴀꜱᴛ ᴅᴏᴡɴʟᴏᴀᴅ / ᴡᴀᴛᴄʜ ᴏɴʟɪɴᴇ 🖥️', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @LazyDeveloperr
                      ]
                     ]
                 )
@@ -469,7 +469,7 @@ async def start(client, message):
               InlineKeyboardButton("𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥", url="t.me/Modder_01")
              ],
              [
-              InlineKeyboardButton('🚀 𝙵𝚊𝚜𝚝 𝙳𝚘𝚠𝚗𝚕𝚘𝚊𝚍 / 𝚆𝚊𝚝𝚌𝚑 𝙾𝚗𝚕𝚒𝚗𝚎🖥️', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @LazyDeveloperr
+              InlineKeyboardButton('🚀 ꜰᴀꜱᴛ ᴅᴏᴡɴʟᴏᴀᴅ / ᴡᴀᴛᴄʜ ᴏɴʟɪɴᴇ 🖥️', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @LazyDeveloperr
              ]
             ]
         )
