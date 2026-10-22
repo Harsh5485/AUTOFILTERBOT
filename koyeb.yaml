@@ -1,0 +1,32 @@
+services:
+  - name: rv-bot
+    type: worker
+    env: docker
+    dockerfile: Dockerfile
+    run_command: ["./entrypoint.sh"]
+    env_vars:
+      - name: BOT_TOKEN
+        secret: "{{ secrets.BOT_TOKEN }}"
+      - name: API_ID
+        secret: "{{ secrets.API_ID }}"
+      - name: API_HASH
+        secret: "{{ secrets.API_HASH }}"
+      - name: OWNER_ID
+        secret: "{{ secrets.OWNER_ID }}"
+      - name: DB_URL
+        secret: "{{ secrets.DB_URL }}"
+      - name: LOG_CHANNEL
+        secret: "{{ secrets.LOG_CHANNEL }}"
+      - name: GDRIVE_FOLDER_ID
+        secret: "{{ secrets.GDRIVE_FOLDER_ID }}"
+      - name: INDEX_LINK
+        secret: "{{ secrets.INDEX_LINK }}"
+      - name: HOTSTAR_USER_TOKEN
+        secret: "{{ secrets.HOTSTAR_USER_TOKEN }}"
+      - name: HOTSTAR_DEVICE_ID
+        secret: "{{ secrets.HOTSTAR_DEVICE_ID }}"
+    resources:
+      flavor: free
+    scalings:
+      min: 1
+      max: 1
